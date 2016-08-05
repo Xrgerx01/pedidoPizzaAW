@@ -19,6 +19,11 @@
 		10C2D2C21D54491C00C4B855 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2D2C11D54491C00C4B855 /* InterfaceController.swift */; };
 		10C2D2C41D54491C00C4B855 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2D2C31D54491C00C4B855 /* ExtensionDelegate.swift */; };
 		10C2D2C61D54491C00C4B855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C2D2C51D54491C00C4B855 /* Assets.xcassets */; };
+		10C2D2D81D544B3400C4B855 /* detalleTipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2D2D71D544B3400C4B855 /* detalleTipoMasa.swift */; };
+		10C2D2DA1D544F2900C4B855 /* valoresAlmacen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2D2D91D544F2900C4B855 /* valoresAlmacen.swift */; };
+		10C2D2DC1D54515600C4B855 /* detalleTipoQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2D2DB1D54515600C4B855 /* detalleTipoQueso.swift */; };
+		10C2D2DE1D545C8B00C4B855 /* detalleIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2D2DD1D545C8B00C4B855 /* detalleIngredientes.swift */; };
+		10C2D2E01D551D0200C4B855 /* detallePedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C2D2DF1D551D0200C4B855 /* detallePedido.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +85,11 @@
 		10C2D2C31D54491C00C4B855 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		10C2D2C51D54491C00C4B855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10C2D2C71D54491C00C4B855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C2D2D71D544B3400C4B855 /* detalleTipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detalleTipoMasa.swift; sourceTree = "<group>"; };
+		10C2D2D91D544F2900C4B855 /* valoresAlmacen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = valoresAlmacen.swift; sourceTree = "<group>"; };
+		10C2D2DB1D54515600C4B855 /* detalleTipoQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detalleTipoQueso.swift; sourceTree = "<group>"; };
+		10C2D2DD1D545C8B00C4B855 /* detalleIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detalleIngredientes.swift; sourceTree = "<group>"; };
+		10C2D2DF1D551D0200C4B855 /* detallePedido.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detallePedido.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +160,11 @@
 				10C2D2C31D54491C00C4B855 /* ExtensionDelegate.swift */,
 				10C2D2C51D54491C00C4B855 /* Assets.xcassets */,
 				10C2D2C71D54491C00C4B855 /* Info.plist */,
+				10C2D2D71D544B3400C4B855 /* detalleTipoMasa.swift */,
+				10C2D2D91D544F2900C4B855 /* valoresAlmacen.swift */,
+				10C2D2DB1D54515600C4B855 /* detalleTipoQueso.swift */,
+				10C2D2DD1D545C8B00C4B855 /* detalleIngredientes.swift */,
+				10C2D2DF1D551D0200C4B855 /* detallePedido.swift */,
 			);
 			path = "TareaPedidoPizzaAW WatchKit Extension";
 			sourceTree = "<group>";
@@ -295,7 +310,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C2D2DC1D54515600C4B855 /* detalleTipoQueso.swift in Sources */,
 				10C2D2C41D54491C00C4B855 /* ExtensionDelegate.swift in Sources */,
+				10C2D2DE1D545C8B00C4B855 /* detalleIngredientes.swift in Sources */,
+				10C2D2E01D551D0200C4B855 /* detallePedido.swift in Sources */,
+				10C2D2DA1D544F2900C4B855 /* valoresAlmacen.swift in Sources */,
+				10C2D2D81D544B3400C4B855 /* detalleTipoMasa.swift in Sources */,
 				10C2D2C21D54491C00C4B855 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

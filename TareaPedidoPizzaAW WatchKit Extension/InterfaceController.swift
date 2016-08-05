@@ -11,7 +11,9 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-
+    
+    var tamanoPizza: String = ""
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
@@ -28,4 +30,22 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBAction func obtienePizzaChica() {
+      tamanoPizza = "Pizza Chica"
+      let valorContexto = valoresAlmacen(vt:tamanoPizza, vtm: "", vtq: "", vi: [""])
+      pushControllerWithName("IdentificadorMasa", context: valorContexto)
+    }
+    
+    @IBAction func obtienePizzaMediana() {
+      tamanoPizza = "Pizza Mediana"
+      let valorContexto = valoresAlmacen(vt:tamanoPizza, vtm: "", vtq: "", vi: [""])
+      pushControllerWithName("IdentificadorMasa", context: valorContexto)
+    }
+    
+    @IBAction func obtienePizzaGrande() {
+      tamanoPizza = "Pizza Grande"
+      let valorContexto = valoresAlmacen(vt:tamanoPizza, vtm: "", vtq: "", vi: [""])
+      pushControllerWithName("IdentificadorMasa", context: valorContexto)
+    }
 }
+
